@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP GYM</title>
+    <link rel="stylesheet" href="css/gym.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+        body{
+            
+
+        }
+        header{
+            font-family: 'Black Ops One', cursive;
+
+            margin: 0px;
+            padding: 0px;
+           
+            height: 700px;
+            /* width: 80px; */
+           
+            /* font-family: Arial, sans-serif; */
+
+            background:url('https://i.ytimg.com/vi/BnxUqXkiqrk/maxresdefault.jpg');
+            /* background:url('https://as2.ftcdn.net/v2/jpg/01/02/52/83/1000_F_102528344_XfIuLtPSSBIIR3NYtLRe1QOBUgkdS8Cp.jpg'); */
+            color: rgba(246, 238, 238, 0.942);
+            
+
+        }
+        .left{
+            /* height: 20px;
+            width: 20px; */
+            /* border: 2px solid; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            /* filter: invert(100%); */
+
+        }
+        .left img{
+            filter: invert(100%);
+        }
+        .left img:hover{
+            filter: brightness(100%);
+        }
+        .mid{
+            display: block;
+            width: 38%;
+            /* position: absolute;
+            left: 34px; */
+            margin: 20px auto;
+            border: 2px solid rgb(130, 199, 232);
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            border: 2px solid rgb(28, 30, 13);
+            display: inline-block;
+
+        }
+        .navbar{
+            display: inline block;
+
+        }
+        .navbar li{
+
+            display: inline-block;
+            font-size: 16px;
+        }
+        .navbar li a{
+            color: rgba(197, 199, 200, 0.762);
+            text-decoration: none;
+            padding: 10px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            /* text-decoration:underline ; */
+            color:rgb(255, 255, 255);
+        }
+        .left img{
+            display: inline-block;
+            width: 90px;
+
+        }
+        .left div{
+            /* position;absolute */
+            text-align: center;
+            /* display: inline-block */
+        }
+        .right{
+            border: 2px solid rgb(119, 213, 210);
+            padding: 7px;
+        }
+        .btn{
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 3px 4px;
+            border: 1px solid rgba(157, 189, 236, 0.475);
+            border-radius: 8px;
+        
+        }
+        .btn:hover{
+            border:3px solid white;
+            /* background-color: rgba(238, 232, 231, 0.959); */
+        }
+        footer{
+            text-align: center;
+            background: black;
+            color: aliceblue;
+            height: 38px;
+            margin: auto;
+            padding: 6px;
+        }
+        div#mydiv{
+            margin-left: 1300px;
+            color: black;
+            width: 150px;
+            height: 140px;
+            background-color: rgb(236, 194, 187);
+            position: relative;
+            animation-name:ex ;
+            animation-duration: 6s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+        }
+        div#mydiv h3{
+            /* margin: 20px; */
+            padding-top: 53px;
+            text-align: center;
+        }
+        @keyframes ex{
+            0% {background-color:red;left: 0px;top: 0px;}
+            25% {background-color:yellow;left: 0px;top: 500px;}
+            75% {background-color:rgb(70, 212, 132);left: 0px;top: 0px;}
+            100% {background-color:rgb(108, 153, 212);left: 0px;top: 500px;}
+            /* 120% {background-color:rgb(0, 0, 0);left: 0px;top: 0px;} */
+        }
+
+    
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="left">
+             <!-- for nav bar -->
+              <img src="https://static.vecteezy.com/system/resources/previews/000/595/164/original/vector-object-and-icons-for-sport-label-gym-badge-fitness-logo-design.jpg" alt="Yeah Buddy">
+              <div class="name">POP Fitness</div>
+        </div>
+        <div class="mid">
+            <!-- for name -->
+            
+            <ul class="navbar">
+            
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">FITNESS REPORT</a></li>
+                <li><a href="shuklaparitosh4224@gamil.com">CONTACT US</a></li>
+                
+            </ul>   
+ 
+        </div>
+        <div class="right">
+            <!-- for logo -->
+            <button class="btn">FREE TRAIL</button>
+            <button class="btn">Personal Training</button>
+            
+           
+ 
+        </div>
+        <div id="mydiv">
+            <h3>Winterr Offerr is here!!!....</h3>
+        </div>
+    </header>
+    <footer>
+        <div class="disclamer">&copy Copywrite 2023 POP Fitness</div>
+    </footer>
+      
+    
+</body>
+</html>
